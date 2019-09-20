@@ -38,4 +38,23 @@ form {
 
 .submit {
   margin-left: 15px;
+  color: blue;
+}
+
+.submit:hover {
+  background-color: aqua;
+  padding: 5px;
+  transform: all 0.5s ease-out;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.loaded {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 500px;
+  border: yellow 5px solid;
 }
